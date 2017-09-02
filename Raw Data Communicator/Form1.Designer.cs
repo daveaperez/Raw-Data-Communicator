@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.textToSend = new System.Windows.Forms.TextBox();
-            this.sendButton = new System.Windows.Forms.Button();
+            this.sendTextButton = new System.Windows.Forms.Button();
             this.connectButton = new System.Windows.Forms.Button();
+            this.sendCommandButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textToSend
@@ -41,16 +42,16 @@
             this.textToSend.Size = new System.Drawing.Size(260, 118);
             this.textToSend.TabIndex = 0;
             // 
-            // sendButton
+            // sendTextButton
             // 
-            this.sendButton.Enabled = false;
-            this.sendButton.Location = new System.Drawing.Point(197, 136);
-            this.sendButton.Name = "sendButton";
-            this.sendButton.Size = new System.Drawing.Size(75, 23);
-            this.sendButton.TabIndex = 1;
-            this.sendButton.Text = "Send";
-            this.sendButton.UseVisualStyleBackColor = true;
-            this.sendButton.Click += new System.EventHandler(this.sendButton_Click);
+            this.sendTextButton.Enabled = false;
+            this.sendTextButton.Location = new System.Drawing.Point(124, 136);
+            this.sendTextButton.Name = "sendTextButton";
+            this.sendTextButton.Size = new System.Drawing.Size(148, 23);
+            this.sendTextButton.TabIndex = 1;
+            this.sendTextButton.Text = "Send Text";
+            this.sendTextButton.UseVisualStyleBackColor = true;
+            this.sendTextButton.Click += new System.EventHandler(this.sendTextButton_Click);
             // 
             // connectButton
             // 
@@ -62,13 +63,24 @@
             this.connectButton.UseVisualStyleBackColor = true;
             this.connectButton.Click += new System.EventHandler(this.connectButton_Click);
             // 
+            // sendCommandButton
+            // 
+            this.sendCommandButton.Location = new System.Drawing.Point(124, 166);
+            this.sendCommandButton.Name = "sendCommandButton";
+            this.sendCommandButton.Size = new System.Drawing.Size(148, 23);
+            this.sendCommandButton.TabIndex = 3;
+            this.sendCommandButton.Text = "Send Command";
+            this.sendCommandButton.UseVisualStyleBackColor = true;
+            this.sendCommandButton.Click += new System.EventHandler(this.sendCommandButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.sendCommandButton);
             this.Controls.Add(this.connectButton);
-            this.Controls.Add(this.sendButton);
+            this.Controls.Add(this.sendTextButton);
             this.Controls.Add(this.textToSend);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -80,8 +92,9 @@
         #endregion
 
         private System.Windows.Forms.TextBox textToSend;
-        private System.Windows.Forms.Button sendButton;
+        private System.Windows.Forms.Button sendTextButton;
         private System.Windows.Forms.Button connectButton;
+        private System.Windows.Forms.Button sendCommandButton;
     }
 }
 
