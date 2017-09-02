@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raw Data Communicator", "Raw Data Communicator\Raw Data Communicator.csproj", "{51485276-84B9-4531-8697-4E2CB7C4EB9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51485276-84B9-4531-8697-4E2CB7C4EB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51485276-84B9-4531-8697-4E2CB7C4EB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51485276-84B9-4531-8697-4E2CB7C4EB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51485276-84B9-4531-8697-4E2CB7C4EB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01AC6ACE-D8BA-48CE-A023-948BF50F21C8}
+	EndGlobalSection
+EndGlobal
